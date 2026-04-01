@@ -1,0 +1,79 @@
+{
+  "vueVersion": "3",
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "text": "首页"
+    },
+    {
+      "path": "pages/menu/menu",
+      "text": "点单"
+    },
+    {
+      "path": "pages/cart/cart",
+      "text": "购物车"
+    },
+    {
+      "path": "pages/mine/mine",
+      "text": "我的"
+    },
+    {
+      "path": "pages/order/order",
+      "text": "确认订单"
+    },
+    {
+      "path": "pages/order-detail/order-detail",
+      "text": "订单详情"
+    },
+    {
+      "path": "pages/address/address",
+      "text": "收货地址"
+    }
+  ],
+  "tabBar": {
+    "color": "#87925A",
+    "selectedColor": "#7EB05A",
+    "backgroundColor": "#FFFDF3",
+    "borderStyle": "white",
+    "iconWidth": "22px",
+    "fontSize": "11px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/tab-home.png",
+        "selectedIconPath": "static/tabbar/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "点单",
+        "iconPath": "static/tabbar/tab-menu.png",
+        "selectedIconPath": "static/tabbar/tab-menu-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/tabbar/tab-cart.png",
+        "selectedIconPath": "static/tabbar/tab-cart-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tabbar/tab-mine.png",
+        "selectedIconPath": "static/tabbar/tab-mine-active.png"
+      }
+    ]
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "globalStyle": {
+    "navigationBarTitleText": "毛豆工坊",
+    "navigationBarBackgroundColor": "#FFF8C9",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F4F9DE"
+  }
+}

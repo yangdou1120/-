@@ -1,0 +1,52 @@
+/**
+ * uni-app 全局样式变量
+ * 这里同步为春日主题的浅黄、浅绿配色
+ */
+
+$uni-color-primary: #8eb765;
+$uni-color-success: #9bc96b;
+$uni-color-warning: #f2d970;
+$uni-color-error: #d97a63;
+
+$uni-text-color: #4f5e28;
+$uni-text-color-inverse: #fff;
+$uni-text-color-grey: #8b9561;
+$uni-text-color-placeholder: #a5af79;
+$uni-text-color-disable: #c5cba6;
+
+$uni-bg-color: #fffef6;
+$uni-bg-color-grey: #f5f9df;
+$uni-bg-color-hover: #eef4ca;
+$uni-bg-color-mask: rgba(88, 103, 44, 0.25);
+
+$uni-border-color: #e4ebbd;
+
+$uni-font-size-sm: 12px;
+$uni-font-size-base: 14px;
+$uni-font-size-lg: 16px;
+
+$uni-img-size-sm: 20px;
+$uni-img-size-base: 26px;
+$uni-img-size-lg: 40px;
+
+$uni-border-radius-sm: 2px;
+$uni-border-radius-base: 3px;
+$uni-border-radius-lg: 6px;
+$uni-border-radius-circle: 50%;
+
+$uni-spacing-row-sm: 5px;
+$uni-spacing-row-base: 10px;
+$uni-spacing-row-lg: 15px;
+
+$uni-spacing-col-sm: 4px;
+$uni-spacing-col-base: 8px;
+$uni-spacing-col-lg: 12px;
+
+$uni-opacity-disabled: 0.3;
+
+$uni-color-title: #4a5a24;
+$uni-font-size-title: 20px;
+$uni-color-subtitle: #73804c;
+$uni-font-size-subtitle: 18px;
+$uni-color-paragraph: #5f6e35;
+$uni-font-size-paragraph: 15px;
